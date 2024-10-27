@@ -1,6 +1,7 @@
 # README for a DN Prediction Stacking Model
 > This is the ML source code for the donor number (DN) prediction model, developed for the research article titled "Machine Learning Assisted Prediction of Donor Numbers: Guiding Rational Fabrication of Polymer Electrolytes for Lithium-ion Batteries."
-> 
+>
+> The code has been organized into distinct sections, each focusing on a specific phase of the modeling process, such as data preparation, model training, evaluation, and prediction.
 
 ## Prerequisites
 
@@ -26,10 +27,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost shap
 ```python
 pip install jupyter
 ```
-* Make sure that the following mandatory libraries are installed in your environment. If they are not installed, you can use the pip command to install them:
-```python
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost
-```
+* 
+
 
 ## Usage
 
@@ -42,6 +41,8 @@ jupyter notebook
 5. In the Jupyter Notebook interface, locate and open the “Stacking_model.ipynb” file.
 6. Run each cell one by one, following the order of the cells in the Notebook. You can execute the code by clicking the Run button to the left of each cell.
 7. View the output of each cell to see how the model is running and performing.
+
+
 
 
 **Note**: 
@@ -59,6 +60,8 @@ jupyter notebook
   This part of the code contains predictions from multiple regression models.
 ## 2. Stacking Model: 
   This part of the code implements a stacking model to improve the accuracy of the predictions.
+
+
 
 
 # Version Information
