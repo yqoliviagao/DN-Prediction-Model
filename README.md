@@ -1,6 +1,5 @@
-# Project Title
-
-# Quickstart/Demo
+# DN Prediction ML Model
+> This is the ML source code for the donor number (DN) prediction model, developed for the research article titled "Machine Learning Assisted Prediction of Donor Numbers: Guiding Rational Fabrication of Polymer Electrolytes for Lithium-ion Batteries."
 
 # Table of Contents
 
