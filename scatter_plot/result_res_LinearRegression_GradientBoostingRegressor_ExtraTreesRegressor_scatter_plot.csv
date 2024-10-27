@@ -1,0 +1,2 @@
+,model,train_r2,train_mae,train_rmse,test_r2,test_mae,test_rmse
+0,LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor,0.9945735003709911,0.8652560136485358,1.041059593282482,0.8574752706092914,3.910339220056618,5.339841158946696
