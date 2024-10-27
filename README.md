@@ -27,8 +27,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost shap
 ## Data
 
 * The dataset used for training and evaluating the model is an Excel file named `dataset.xlsx`. This file contain the target variable (DN value) in the 2nd column and the corresponding features in the other columns.
-* The CSV file named `selected_feats.csv` list the selected features for modeling.
 * The Excel file named `data_to_be_predicted.xlsx` contain the corresponding features of the material to be predicted.
+* The CSV file named `selected_feats.csv` and `selected_features.csv` list the selected features for modeling.
 
 ## Installation
 
