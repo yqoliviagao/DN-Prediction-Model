@@ -19,7 +19,7 @@
 [(Back to top)](#table-of-contents)
 
 # Development
-[(Back to top)](#table-of-contents)
+Feel free to open issues or pull requests for improvements or new features. Your contributions are welcome!
 
 # Contribute
 [(Back to top)](#table-of-contents)
