@@ -3,8 +3,6 @@
 
 # Table of Contents
 
-- [Project Title](#project-title)
-- [Quickstart/Demo](#quickstartdemo)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,16 +11,25 @@
 - [License](#license)
 
 # Installation
-[(Back to top)](#table-of-contents)
+
+If Jupyter Notebook is not installed in your environment, you can install it with the following command:
+```python
+pip install jupyter
+```
 
 # Usage
-[(Back to top)](#table-of-contents)
+
+Make sure that the following mandatory libraries are installed in your environment. If they are not installed, you can use the pip command to install them:
+```python
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+```
 
 # Development
 Feel free to open issues or pull requests for improvements or new features. Your contributions are welcome!
 
 # Contribute
-[(Back to top)](#table-of-contents)
+
 
 # License
-[(Back to top)](#table-of-contents)
+
+
