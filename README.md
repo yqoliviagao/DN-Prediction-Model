@@ -30,7 +30,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost shap
 * The Excel file named `data_to_be_predicted.xlsx` contain the corresponding features of the material to be predicted.
 * The CSV file named `selected_feats.csv` and `selected_features.csv` list the selected features for modeling.
 
-
 ## Code Structure
 
 The code is structured into several sections for clarity and modularity:
@@ -89,15 +88,6 @@ jupyter notebook
 
 ```
 
-# Description of the code structure
-## 1. Multiple regression model predictions: 
-  This part of the code contains predictions from multiple regression models.
-## 2. Stacking Model: 
-  This part of the code implements a stacking model to improve the accuracy of the predictions.
-
-
-
-
 # Version Information
  Jupyter Notebook version: [7.0.8]
  
@@ -117,33 +107,6 @@ To run the code, follow these steps:
 1. Place the `dataset.xlsx` and `selected_feats.csv` files in the same directory as the Jupyter notebook.
 2. Run each cell in the notebook sequentially.
 3. The final predictions will be saved to a CSV file named `selected_prediction.csv`.
-
-## Model Performance
-
-The model's performance is evaluated using various metrics, including R2, MAE, and RMSE. The results are saved to a CSV file named `best_results_r2_mae_rmse.csv`.
-
-## SHAP Values
-
-The SHAP values are calculated for each feature and visualized using a swarm plot. The plots are saved as PDF files.
-
-## Predictions
-
-The stacking model is used to make predictions on new data. The predictions are saved to a CSV file named `selected_prediction.csv`.
-
-## Disclaimer
-
-This README file is generated based on the provided code and may not cover all the details. It is essential to review the code and understand each section's purpose before running it.
-
-
-
-# README for Stacking Model
-
-
-## Data
-
-The dataset used for training and evaluating the model is expected to be in an Excel file named `dataset.xlsx`. This file should contain the target variable in one column and the corresponding features in the other columns. Additionally, a CSV file named `selected_feats.csv` should list the selected features for modeling.
-
-
 
 ## Running the Code
 
@@ -166,9 +129,28 @@ SHAP values are calculated for each feature, providing insights into their indiv
 
 ## Predictions
 
-The stacking model is utilized to make predictions on new, unseen data. The predictions are stored in a CSV file named `selected_prediction.csv`.
+The stacking model is utilized to make predictions on new data. The predictions are stored in a CSV file named `selected_prediction.csv`.
 
 ## Note
 
 While this README provides a high-level overview and instructions, it is crucial to review and understand the code in each section before execution. The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
+
+
+
+# README for Stacking Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
