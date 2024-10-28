@@ -90,7 +90,7 @@ The model's performance is evaluated using key metrics, including R2, MAE, and R
 
 The stacking model is utilized to make predictions on new data. The predictions are stored in a CSV file named `selected_prediction.csv`.
 
-## Note
+## Notes
 
 * While this README provides an overview and instructions, it is crucial to review and understand the code in each section before execution.
 * The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
@@ -107,11 +107,9 @@ The stacking model is utilized to make predictions on new data. The predictions 
 For any questions, suggestions, or collaboration inquiries, please feel free to reach out to us:
 
 - **Email**: [yqoliviagao@163.com](mailto:yqoliviagao@163.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
 
 You can also open an issue in this repository for any questions or feedback related to the project.
 
----
 
-**Thank you for your interest in our stacking model project!**
+**Thank you for your interest in our stacking model project!** 
+
