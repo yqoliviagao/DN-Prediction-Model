@@ -76,30 +76,6 @@ jupyter notebook
 7. View the output of each cell to see how the model is running and performing.
 
 
-
-
-**Note**: 
-* Make sure you have installed all the necessary libraries before running the code.
-* If you encounter any problems during runtime, check that the versions of the code and libraries are compatible.
-* Running the model may require some computing resources, make sure your device meets the running requirements.
-
-
-```python
-
-```
-
-# Version Information
- Jupyter Notebook version: [7.0.8]
- 
- Python version: [3.12.2]
-
-# Contribute 
-
-
-
-
-
-
 ## Running the Code
 
 To run the code, follow these steps:
@@ -133,11 +109,24 @@ The stacking model is utilized to make predictions on new data. The predictions 
 
 ## Note
 
-While this README provides a high-level overview and instructions, it is crucial to review and understand the code in each section before execution. The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
+* While this README provides an overview and instructions, it is crucial to review and understand the code in each section before execution. The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
+* Make sure you have installed all the necessary libraries before running the code.
+* If you encounter any problems during runtime, check that the versions of the code and libraries are compatible.
+* Running the model may require some computing resources, make sure your device meets the running requirements.
+
+
+# Version Information
+ Jupyter Notebook version: [7.0.8]
+ 
+ Python version: [3.12.2]
+
+# Contribute 
 
 
 
-# README for Stacking Model
+
+
+
 
 
 
