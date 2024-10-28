@@ -62,20 +62,6 @@ The code is structured into several sections for clarity and modularity:
    - Defines and trains the stacking model on the prepared data.
    - Generates predictions and saves the model and prediction results to files.
 
-
-## Usage
-
-1. Open a terminal or command prompt.
-2. Navigate to the directory containing “Stacking_model.ipynb”.
-3. Run the following command to start the Jupyter Notebook server:
-```python
-jupyter notebook
-```
-5. In the Jupyter Notebook interface, locate and open the “Stacking_model.ipynb” file.
-6. Run each cell one by one, following the order of the cells in the Notebook. You can execute the code by clicking the Run button to the left of each cell.
-7. View the output of each cell to see how the model is running and performing.
-
-
 ## Running the Code
 
 To run the code effectively:
@@ -96,8 +82,8 @@ The model's performance is evaluated using key metrics, including R2, MAE, and R
 
 ## SHAP Values
 
-* SHAP values are calculated for each feature ('shap_values_ExtraTreesRegressor.csv', 'shap_values_GradientBoostingRegressor.csv', 'shap_values_LinearRegression.csv', and 'shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv'), providing insights into their individual contributions to the model's predictions.
-* These values are visualized using swarm plots and saved as PDF files ('stacking_shap_beeswarm_plot_top10_shap_values_ExtraTreesRegressor.csv.pdf', 'stacking_shap_beeswarm_plot_top10_shap_values_GradientBoostingRegressor.csv.pdf', 'stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv.pdf', and 'stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression.csv.pdf') for further analysis.
+1. SHAP values are calculated for each feature ('shap_values_ExtraTreesRegressor.csv', 'shap_values_GradientBoostingRegressor.csv', 'shap_values_LinearRegression.csv', and 'shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv'), providing insights into their individual contributions to the model's predictions.
+2. These values are visualized using swarm plots and saved as PDF files: 'stacking_shap_beeswarm_plot_top10_shap_values_ExtraTreesRegressor.csv.pdf', 'stacking_shap_beeswarm_plot_top10_shap_values_GradientBoostingRegressor.csv.pdf', 'stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv.pdf', and 'stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression.csv.pdf' for further analysis.
 
 ## Predictions
 
@@ -105,10 +91,10 @@ The stacking model is utilized to make predictions on new data. The predictions 
 
 ## Note
 
-* While this README provides an overview and instructions, it is crucial to review and understand the code in each section before execution. The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
+* While this README provides an overview and instructions, it is crucial to review and understand the code in each section before execution.
+* The recommendation to use Jupyter Notebook in Anaconda with PyCharm software is to ensure a smooth development environment and efficient coding assistance.
 * Make sure you have installed all the necessary libraries before running the code.
 * If you encounter any problems during runtime, check that the versions of the code and libraries are compatible.
-* Running the model may require some computing resources, make sure your device meets the running requirements.
 
 
 ## Version Information
