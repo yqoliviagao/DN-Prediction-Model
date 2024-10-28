@@ -30,13 +30,38 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost shap
 * The Excel file named `data_to_be_predicted.xlsx` contain the corresponding features of the material to be predicted.
 * The CSV file named `selected_feats.csv` and `selected_features.csv` list the selected features for modeling.
 
-## Installation
 
-* If Jupyter Notebook is not installed in your environment, you can install it with the following command:
-```python
-pip install jupyter
-```
-* 
+## Code Structure
+
+The code is structured into several sections for clarity and modularity:
+
+1. **Multiple Regression Model Predictions**
+   - Imports necessary libraries and modules.
+   - Loads the dataset, handling missing values as needed.
+   - Defines a function to generate non-consecutive combinations for feature selection.
+    
+2. **Data Selection**
+   - Splits the dataset into features (X) and the target variable (y).
+   - Implements functions for K-Fold cross-validation and model evaluation metrics.
+
+3. **Multi-regression Evaluation**
+   - Establishes a dictionary of base models with their respective hyperparameter grids.
+   - Conducts cross-validation, grid search for hyperparameter tuning, and evaluates model performance.
+
+4. **Stacking Model**
+   - Configures the base models and the meta-model within the stacking framework.
+   - Performs cross-validation and assesses the stacked model's performance.
+
+5. **Metrics**
+   - Computes and records the model's performance metrics, such as R2, MAE, and RMSE.
+
+6. **SHAP Values**
+   - Calculates and visualizes the SHAP values for the base models to understand feature importance.
+
+7. **Stacking Prediction**
+   - Prepares the data for predictions, standardizing features as necessary.
+   - Defines and trains the stacking model on the prepared data.
+   - Generates predictions and saves the model and prediction results to files.
 
 
 ## Usage
@@ -85,45 +110,6 @@ jupyter notebook
 
 
 
-
-## Data
-
-The data used for training and testing the model is assumed to be in an Excel file named `dataset.xlsx`. The file should have the training set values in one column and the corresponding features in the remaining columns. Additionally, a CSV file named `selected_feats.csv` should contain the list of selected features.
-
-## Code Structure
-
-The code is divided into several sections:
-
-1. **Multiple Regression Model Predictions**
-   - Imports necessary libraries.
-   - Loads the dataset and fills missing values.
-   - Defines a function to generate non-consecutive combinations.
-   - Selects the features based on the `selected_feats.csv` file.
-
-2. **Data Selection**
-   - Splits the data into features (X) and target variable (y).
-   - Defines functions for cross-validation and model evaluation.
-
-3. **Multi-regression Evaluation**
-   - Defines a dictionary of base models and their parameters.
-   - Performs cross-validation and grid search for hyperparameter tuning.
-
-4. **Stacking Model**
-   - Defines the base models and the meta-model for the stacking approach.
-   - Performs cross-validation and evaluates the model's performance.
-
-5. **Metrics**
-   - Calculates the model's performance metrics such as R2, MAE, and RMSE.
-
-6. **SHAP Values**
-   - Calculates the SHAP values for the base models and visualizes them.
-
-7. **Stacking Prediction**
-   - Loads the data to be predicted.
-   - Standardizes the features.
-   - Defines the stacking model and trains it on the data.
-   - Makes predictions and saves the model and predictions to files.
-
 ## Running the Code
 
 To run the code, follow these steps:
@@ -157,37 +143,7 @@ This README file is generated based on the provided code and may not cover all t
 
 The dataset used for training and evaluating the model is expected to be in an Excel file named `dataset.xlsx`. This file should contain the target variable in one column and the corresponding features in the other columns. Additionally, a CSV file named `selected_feats.csv` should list the selected features for modeling.
 
-## Code Structure
 
-The code is structured into several sections for clarity and modularity:
-
-1. **Multiple Regression Model Predictions**
-   - Imports necessary libraries and modules.
-   - Loads the dataset, handling missing values as needed.
-   - Defines a function to generate non-consecutive combinations for feature selection.
-
-2. **Data Selection**
-   - Splits the dataset into features (X) and the target variable (y).
-   - Implements functions for K-Fold cross-validation and model evaluation metrics.
-
-3. **Multi-regression Evaluation**
-   - Establishes a dictionary of base models with their respective hyperparameter grids.
-   - Conducts cross-validation, grid search for hyperparameter tuning, and evaluates model performance.
-
-4. **Stacking Model**
-   - Configures the base models and the meta-model within the stacking framework.
-   - Performs cross-validation and assesses the stacked model's performance.
-
-5. **Metrics**
-   - Computes and records the model's performance metrics, such as R2, MAE, and RMSE.
-
-6. **SHAP Values**
-   - Calculates and visualizes the SHAP values for the base models to understand feature importance.
-
-7. **Stacking Prediction**
-   - Prepares the data for predictions, standardizing features as necessary.
-   - Defines and trains the stacking model on the prepared data.
-   - Generates predictions and saves the model and prediction results to files.
 
 ## Running the Code
 
