@@ -1,10 +1,7 @@
 # README for A DN Prediction Stacking Model
-![Downloads](https://img.shields.io/github/downloads/yqoliviagao/DN-Prediction-Model/total.svg)
+
+![Language](https://img.shields.io/github/languages/top/yqoliviagao/DN-Prediction-Model.svg)
 ![Last Update](https://img.shields.io/github/last-commit/yqoliviagao/DN-Prediction-Model.svg)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/yqoliviagao/DN-Prediction-Model?include_prereleases)
-
-
-
 
 > This is the ML source code for the donor number (DN) prediction model, developed for the research article titled "Machine Learning Assisted Prediction of Donor Numbers: Guiding Rational Fabrication of Polymer Electrolytes for Lithium-ion Batteries."
 >
