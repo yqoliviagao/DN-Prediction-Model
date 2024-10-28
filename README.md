@@ -1,4 +1,4 @@
-# README for a DN Prediction Stacking Model
+# README for A DN Prediction Stacking Model
 > This is the ML source code for the donor number (DN) prediction model, developed for the research article titled "Machine Learning Assisted Prediction of Donor Numbers: Guiding Rational Fabrication of Polymer Electrolytes for Lithium-ion Batteries."
 >
 > The code has been organized into distinct sections, each focusing on a specific phase of the modeling process, such as data preparation, model training, evaluation, and prediction.
