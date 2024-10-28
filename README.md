@@ -83,8 +83,8 @@ The model's performance is evaluated using key metrics, including R2, MAE, and R
 
 ## SHAP Analysis
 
-1. SHAP values are calculated for each feature (`shap_values_ExtraTreesRegressor.csv`, `shap_values_GradientBoostingRegressor.csv`, `shap_values_LinearRegression.csv`, and `shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv`), providing insights into their individual contributions to the model's predictions.
-2. These values are visualized using swarm plots and saved as PDF files: `stacking_shap_beeswarm_plot_top10_shap_values_ExtraTreesRegressor.csv.pdf`, `stacking_shap_beeswarm_plot_top10_shap_values_GradientBoostingRegressor.csv.pdf`, `stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv.pdf`, and `stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression.csv.pdf` for further analysis.
+1. SHAP values are calculated by the `Shap_value_calculation.ipynb` file for each feature (`shap_values_ExtraTreesRegressor.csv`, `shap_values_GradientBoostingRegressor.csv`, `shap_values_LinearRegression.csv`, and `shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv`), providing insights into their individual contributions to the model's predictions.
+2. These values are visualized using swarm plots and saved as PDF files by the `6. SHAP Values` section in the `Stacking_model.ipynb` notebook: `stacking_shap_beeswarm_plot_top10_shap_values_ExtraTreesRegressor.csv.pdf`, `stacking_shap_beeswarm_plot_top10_shap_values_GradientBoostingRegressor.csv.pdf`, `stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression_GradientBoostingRegressor_ExtraTreesRegressor.csv.pdf`, and `stacking_shap_beeswarm_plot_top10_shap_values_LinearRegression.csv.pdf` for further analysis.
 
 ## Predictions
 
